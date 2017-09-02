@@ -275,7 +275,7 @@ CGFloat opacity;
         });
         if (shouldShowAlert) {
             //Prompt user with actions..
-            UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"Yahoo Mail" message:@"Do you want to view the recording?" preferredStyle:UIAlertControllerStyleAlert];
+            UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"Alert" message:@"Do you want to view the recording?" preferredStyle:UIAlertControllerStyleAlert];
             UIAlertAction *viewAction = [UIAlertAction actionWithTitle:@"View" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
                 dispatch_async(dispatch_get_main_queue(), ^{
                     previewViewController.previewControllerDelegate = self;
